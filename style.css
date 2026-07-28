@@ -1,7 +1,6 @@
-/* ===========================
-   ÁNGELES ARJONA
-   LANDING CARD
-=========================== */
+/* ======================================================
+   LANDING CARD · ÁNGELES ARJONA
+====================================================== */
 
 *{
     margin:0;
@@ -9,10 +8,320 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
 
-    background:#f8f7f4;
+    font-family:'Manrope',sans-serif;
 
-    font-family:Arial, Helvetica, sans-serif;
+    color:#34597A;
+
+    background:#ffffff;
+
+}
+
+/* ---------------- HERO ---------------- */
+
+.hero{
+
+    min-height:100vh;
+
+    background-image:url("assets/fondo.png");
+
+    background-size:cover;
+
+    background-position:center bottom;
+
+    background-repeat:no-repeat;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    text-align:center;
+
+    padding:70px 30px 180px;
+
+    position:relative;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.contenido{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:700px;
+
+}
+
+/* ---------------- LOGO ---------------- */
+
+.logo{
+
+    width:150px;
+
+    margin-bottom:30px;
+
+}
+
+/* ---------------- TITULOS ---------------- */
+
+h1{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:3rem;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    color:#2E5678;
+
+    margin-bottom:18px;
+
+}
+
+h2{
+
+    font-size:1.2rem;
+
+    font-weight:400;
+
+    line-height:1.8;
+
+    color:#4E6E80;
+
+}
+
+.colegio{
+
+    margin-top:18px;
+
+    margin-bottom:45px;
+
+    color:#6E8E8E;
+
+    font-size:.95rem;
+
+}
+
+.intro{
+
+    font-size:1.15rem;
+
+    margin-bottom:15px;
+
+}
+
+h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:2rem;
+
+    font-weight:600;
+
+    color:#2E5678;
+
+    letter-spacing:3px;
+
+    margin-bottom:35px;
+
+}
+
+/* ---------------- BIENVENIDA ---------------- */
+
+.bienvenida{
+
+    font-size:1.1rem;
+
+    line-height:1.9;
+
+    max-width:600px;
+
+    margin:auto;
+
+    margin-bottom:45px;
+
+    color:#486B79;
+
+}
+
+/* ---------------- BOTÓN ---------------- */
+
+.boton-principal{
+
+    display:inline-block;
+
+    background:#7E9D8E;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:.25s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.boton-principal:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 16px 35px rgba(0,0,0,.18);
+
+}
+
+/* ---------------- CONTACTO ---------------- */
+
+.contacto{
+
+    background:white;
+
+    padding:70px 25px;
+
+}
+
+.grid-contacto{
+
+    max-width:950px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+}
+
+.item{
+
+    background:white;
+
+    text-decoration:none;
+
+    color:#34597A;
+
+    border-radius:20px;
+
+    padding:28px;
+
+    text-align:center;
+
+    transition:.25s;
+
+    border:1px solid rgba(0,0,0,.08);
+
+}
+
+.item:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.10);
+
+}
+
+.item img{
+
+    width:42px;
+
+    margin-bottom:18px;
+
+}
+
+.item h4{
+
+    font-size:1.15rem;
+
+    margin-bottom:10px;
+
+}
+
+.item p{
+
+    font-size:.95rem;
+
+    line-height:1.6;
+
+}
+
+/* ---------------- PIE ---------------- */
+
+footer{
+
+    text-align:center;
+
+    padding:60px 25px;
+
+    color:#567785;
+
+    font-style:italic;
+
+    font-size:1.05rem;
+
+}
+
+/* ---------------- MÓVIL ---------------- */
+
+@media(max-width:768px){
+
+.logo{
+
+    width:125px;
+
+}
+
+h1{
+
+    font-size:2.3rem;
+
+}
+
+h3{
+
+    font-size:1.45rem;
+
+}
+
+.grid-contacto{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero{
+
+    padding:55px 22px 150px;
+
+}
 
 }
