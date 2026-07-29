@@ -44,7 +44,7 @@ body{
 
     text-align:center;
 
-    padding:25px 30px 120px;
+    padding:20px 30px 90px;
 
     position:relative;
 
@@ -112,9 +112,9 @@ h2{
 
 .colegio{
 
-    margin-top:18px;
+    margin-top:12px;
 
-    margin-bottom:45px;
+    margin-bottom:28px;
 
     color:#6E8E8E;
 
@@ -126,7 +126,7 @@ h2{
 
     font-size:1.15rem;
 
-    margin-bottom:15px;
+    margin-bottom:8px;
 
 }
 
@@ -142,7 +142,7 @@ h3{
 
     letter-spacing:3px;
 
-    margin-bottom:35px;
+    margin-bottom:20px;
 
 }
 
@@ -158,7 +158,7 @@ h3{
 
     margin:auto;
 
-    margin-bottom:45px;
+    margin-bottom:30px;
 
     color:#486B79;
 
@@ -216,9 +216,9 @@ h3{
 
     display:grid;
 
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(4,1fr);
 
-    gap:35px;
+    gap:20px;
 
 }
 
@@ -278,15 +278,31 @@ h3{
 
 footer{
 
+    margin-top:-30px;
+
+    padding:40px 20px 70px;
+
+    background:url("assets/fondo.png");
+
+    background-size:cover;
+
+    background-position:center bottom;
+
+footer p{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:1.45rem;
+
+    font-weight:700;
+
+    color:#2E5678;
+
     text-align:center;
 
-    padding:70px 45px;
+    max-width:700px;
 
-    color:#567785;
-
-    font-style:italic;
-
-    font-size:1.05rem;
+    margin:auto;
 
 }
 
