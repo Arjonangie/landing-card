@@ -278,31 +278,37 @@ h3{
 
 footer{
 
-    margin-top:-30px;
-
-    padding:40px 20px 70px;
-
-    background:url("assets/fondo.png");
+    background-image:url("assets/fondo.png");
 
     background-size:cover;
 
     background-position:center bottom;
 
+    padding:35px 20px 45px;
+
+    text-align:center;
+
+}
+
 footer p{
 
-    font-family:'Cormorant Garamond',serif;
+    font-family:'Cormorant Garamond', serif;
 
     font-size:1.45rem;
 
     font-weight:700;
 
+    font-style:italic;
+
     color:#2E5678;
 
     text-align:center;
 
-    max-width:700px;
+    max-width:800px;
 
-    margin:auto;
+    margin:0 auto;
+
+    line-height:1.5;
 
 }
 
