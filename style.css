@@ -150,17 +150,21 @@ h3{
 
 .bienvenida{
 
-    font-size:1.1rem;
+    font-family:'Cormorant Garamond', serif;
 
-    line-height:1.9;
+    font-size:1.6rem;
 
-    max-width:600px;
+    font-style:italic;
 
-    margin:auto;
+    font-weight:600;
 
-    margin-bottom:30px;
+    line-height:1.5;
 
-    color:#486B79;
+    color:#2E5678;
+
+    max-width:700px;
+
+    margin:0 auto 35px;
 
 }
 
